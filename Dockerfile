@@ -22,9 +22,9 @@
 ###
 
 
-FROM vkucukcakar/base
+FROM claudiomasia/base
 
-LABEL maintainer "Volkan Kucukcakar"
+LABEL maintainer "Claudio Masia"
 
 # Install runit for Alpine.
 RUN apk add --update runit \
